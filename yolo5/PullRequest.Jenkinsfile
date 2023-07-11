@@ -8,6 +8,7 @@ pipeline {
                 '''
             }
         }
+
         stage('Yolo5 - Unittest') {
             steps {
                 sh '''
