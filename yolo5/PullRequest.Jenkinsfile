@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     stages {
         stage('Install dependencies') {
             steps {
@@ -9,6 +8,7 @@ pipeline {
                 '''
             }
         }
+
         stage('Yolo5 - Unittest') {
             steps {
                 sh '''
