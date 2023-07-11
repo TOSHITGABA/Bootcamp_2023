@@ -7,6 +7,7 @@ pipeline {
                 echo "testing"
             }
         }
+
         stage('Lint') {
             steps {
                 echo "linting"
