@@ -8,7 +8,6 @@ pipeline {
                 '''
             }
         }
-
         stage('Yolo5 - Unittest') {
             steps {
                 sh '''
@@ -24,6 +23,8 @@ pipeline {
 
             }
         }
+
+
         stage('Lint') {
             steps {
                 echo "linting"
